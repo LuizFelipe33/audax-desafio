@@ -1,0 +1,33 @@
+.containerText2 h1{
+    text-align: center;
+    color: #fff;
+    font-size: 55px;
+}
+.containerText2 p{
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+}
+.container-main{
+    justify-content: space-around;
+    display: flex;
+    margin: 30px;
+    padding: 20px;
+}
+.containers{
+    padding: 40px;
+    width: 30%;
+    height: 500px;   
+    margin-top: 20px;
+    background-color: #ffff;
+    display: center;
+    border-radius: 20px;
+    text-align: center;
+}
+.containers p{
+    padding: 20px;
+}
+.img-not2{
+    height: 60%;
+    width: 80%;
+}

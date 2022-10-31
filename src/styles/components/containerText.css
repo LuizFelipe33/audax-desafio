@@ -1,0 +1,27 @@
+.flex{
+    margin-left: 10rem;
+    display: flex;
+    margin-top: 50px;
+}
+.containerText{
+    max-width: 100%;
+    display: block;
+    width: 50%;
+    margin-left: 200px;
+    margin-top: 150px;
+    border-radius: 30px;
+}
+.containerText h1{
+    color: #fff;
+    font-size: 55px;
+}
+.containerText p{
+    color: rgb(130, 130, 130);
+    font-size: 18px;
+    padding: 10px;
+}
+
+.img-not{ 
+    width: 70%;
+    height: 100%;
+}

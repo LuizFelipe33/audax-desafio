@@ -1,0 +1,31 @@
+/*Container da barra de navegação*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+
+header{
+    flex-wrap: wrap;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+a{
+    text-decoration: none;
+}
+.bar{
+    display: flex;
+    margin-top: 30px;
+    box-sizing: border-box;
+    text-decoration: none;
+    overflow-x: hidden;
+    border-radius: 30px;
+}
+/*Mudar o estilo da lista que está dentro do container*/
+.bar ul a{
+    color: #ffff;
+    display: block;
+    padding: 30px;
+    font-size: 17px;
+}
+.titulo{
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
