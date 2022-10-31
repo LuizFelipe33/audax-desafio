@@ -23,7 +23,13 @@
     width: 70%;
     height: 100%;
 }
-
+button{
+    width: 250px;
+    padding: 25px;
+    background-color: #0DE67B;
+    border-radius: 30px;
+    color: #fff;
+}
 @media(max-width:1200px ){
     .img-not{
         width: 550px;
