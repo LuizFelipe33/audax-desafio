@@ -15,11 +15,12 @@ const Form = () => {
             <div className='input'>
                 <input type="text" name='email' placeholder='Digite seu melhor email'/>
             </div>
-            <div className='input2'>
+            <div className='input'>
                 <input type="name" name='name' placeholder='Nome'/>
+            </div>
+            <div className='input'>
                 <input type="text" name='empresa' placeholder='Empresa'/>
             </div>
-
             <div className='input'>
                 <input type="text" name='assunto' placeholder='Assunto'/>
             </div>
