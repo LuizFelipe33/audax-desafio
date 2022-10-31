@@ -5,6 +5,7 @@ import ContainerText from './ContainerText'
 
 //Style
 import '../styles/components/startContainer.css'
+import Form from './Form'
 
 const StartContainer = () => {
     /*Container que agrega alguns components*/
@@ -13,6 +14,7 @@ const StartContainer = () => {
           <AppBar/>
           <ContainerText/>
           <ContainerImg/>
+          <Form/>
       </div>
     )
   }
