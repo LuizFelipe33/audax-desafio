@@ -1,4 +1,5 @@
 import React from 'react'
+//importação da biblioteca do react recaptcha 
 import ReCAPTCHA from "react-google-recaptcha";
 
 //Style
@@ -9,6 +10,7 @@ const Form = () => {
         console.log("Captcha value:", value);
     }     
   return (
+    /*Formnulario com inputs*/
     <div className='finalContainer'>
         <h1 className='text'>Set ut perspiciatis unde</h1>
         <form>
@@ -29,6 +31,7 @@ const Form = () => {
             </div>
             <input className='button' type="submit" value={"enviar"}/>
         </form>
+        {/* Div que contem o recaptch */}
         <div className='recaptch'>
         <ReCAPTCHA sitekey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI"onChange={onChange}/>,
         </div>      

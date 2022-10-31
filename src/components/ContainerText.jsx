@@ -6,6 +6,7 @@ import not from '../assets/not.png'
 
 const ContainerText = () => {
     return (
+      /*Texto e imagem iniciais */
       <section className='flex'>
         <div className='containerText'>
             <h1>Esse texto é uma heading super legal</h1>

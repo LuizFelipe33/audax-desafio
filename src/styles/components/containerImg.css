@@ -33,7 +33,6 @@
     height: auto;
     width: auto;
 }
-
 @media(max-width:900px ){
     .img-not2{
         visibility: hidden;

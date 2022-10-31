@@ -6,6 +6,7 @@ import not3 from '../assets/not3.png'
 
 const ContainerImg = () => {
     return (
+      /*Containers com imagens*/
       <section>
           <div className='containerText2'>
             <h1>Conheça</h1>
