@@ -1,7 +1,7 @@
 //imports
 import React from 'react'
 //Style
-import '../styles/components/appbar.css'
+import '../styles/components/appBar.css'
 
 const AppBar = () => {
     return (
