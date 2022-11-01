@@ -18,10 +18,10 @@ const Form = () => {
                 <input type="text" name='email' placeholder='Digite seu melhor email'/>
             </div>
             <div className='input'>
-                <input type="name" name='name' placeholder='Nome'/>
+            <input type="name" required="required" name="text" pattern="[A-Za-záàâãéèêíïóôõöúçñÁÀÂÃÉÈÍÏÓÔÕÖÚÇÑ ]+$" placeholder='Nome'/>
             </div>
             <div className='input'>
-                <input type="text" name='empresa' placeholder='Empresa'/>
+                <input type="text" name='empresa' placeholder='Empresa' required="required"pattern="[A-Za-záàâãéèêíïóôõöúçñÁÀÂÃÉÈÍÏÓÔÕÖÚÇÑ ]+$"/>
             </div>
             <div className='input'>
                 <input type="text" name='assunto' placeholder='Assunto'/>
